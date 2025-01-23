@@ -11,7 +11,9 @@ layout(location = 0) in vec2 in_position;
 
 void main()
 {
-    gl_Position = vec4(in_position, 0., 1.);
+    vec2 position = in_position;
+    position = position +0.4;
+    gl_Position = vec4(position, 0., 1.);
 })glsl"},
         .fragment = gl::ShaderSource::Code{R"glsl(#version 410
 
@@ -19,7 +21,7 @@ out vec4 out_color;
 
 void main()
 {
-    out_color = vec4(1.);
+    out_color = vec4(1., 1., 0., 1.);
 })glsl"},
     }};
 
