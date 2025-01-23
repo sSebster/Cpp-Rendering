@@ -1,5 +1,7 @@
 #pragma once
 #include <functional>
+#include <optional>
+
 #include "Texture.hpp"
 #include "glad/gl.h"
 
