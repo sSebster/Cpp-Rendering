@@ -39,7 +39,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\
+cmake_ninja_workdir = C$:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\
 # =============================================================================
 # Object build statements for EXECUTABLE target TPs-Rendering
 
@@ -47,11 +47,11 @@ cmake_ninja_workdir = C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Renderi
 #############################################
 # Order-only phony target for TPs-Rendering
 
-build cmake_object_order_depends_target_TPs-Rendering: phony || cmake_object_order_depends_target_exe_path cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_img cmake_object_order_depends_target_opengl_framework cmake_object_order_depends_target_stb_image timestamp_0b7161ffdbedf9795a4bded4e0df0394 timestamp_a0007f97c4dbb46457d2c647614760e8 timestamp_c74c040d37717b8d4b876219176a271d
+build cmake_object_order_depends_target_TPs-Rendering: phony || cmake_object_order_depends_target_exe_path cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_img cmake_object_order_depends_target_opengl_framework cmake_object_order_depends_target_stb_image timestamp_1a55800068c1111e62cbcaf40457014c timestamp_3967e6056bef46973f645250f41f51a4 timestamp_506f3f488bf82f02219bd32f7507ba85
 
-build CMakeFiles\TPs-Rendering.dir\src\main.cpp.obj: CXX_COMPILER__TPs-Rendering_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\src\main.cpp || cmake_object_order_depends_target_TPs-Rendering
+build CMakeFiles\TPs-Rendering.dir\src\main.cpp.obj: CXX_COMPILER__TPs-Rendering_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\src\main.cpp || cmake_object_order_depends_target_TPs-Rendering
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\src -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:W0
   OBJECT_DIR = CMakeFiles\TPs-Rendering.dir
   OBJECT_FILE_DIR = CMakeFiles\TPs-Rendering.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\TPs-Rendering.dir\
@@ -82,7 +82,7 @@ build TPs-Rendering.exe: CXX_EXECUTABLE_LINKER__TPs-Rendering_Debug CMakeFiles\T
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -93,7 +93,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering -BC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\GitHub\C---Rendering -BC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -111,7 +111,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles\install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -123,7 +123,7 @@ build install: phony CMakeFiles\install.util
 # Utility command for install/local
 
 build CMakeFiles\install\local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -132,34 +132,34 @@ build install\local: phony CMakeFiles\install\local.util
 
 
 #############################################
-# Custom command for timestamp_0b7161ffdbedf9795a4bded4e0df0394
+# Custom command for timestamp_3967e6056bef46973f645250f41f51a4
 
-build timestamp_0b7161ffdbedf9795a4bded4e0df0394 | ${cmake_ninja_workdir}timestamp_0b7161ffdbedf9795a4bded4e0df0394: CUSTOM_COMMAND C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\res\.gitkeep || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_0b7161ffdbedf9795a4bded4e0df0394 && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/.gitkeep C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/res/.gitkeep"
-  DESC = Copying "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/.gitkeep" to "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/res/.gitkeep"
+build timestamp_3967e6056bef46973f645250f41f51a4 | ${cmake_ninja_workdir}timestamp_3967e6056bef46973f645250f41f51a4: CUSTOM_COMMAND C$:\Users\PC\Documents\GitHub\C---Rendering\res\.gitkeep || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_3967e6056bef46973f645250f41f51a4 && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/PC/Documents/GitHub/C---Rendering/res/.gitkeep C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/.gitkeep"
+  DESC = Copying "C:/Users/PC/Documents/GitHub/C---Rendering/res/.gitkeep" to "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/.gitkeep"
   restat = 1
 
 
 #############################################
-# Custom command for timestamp_a0007f97c4dbb46457d2c647614760e8
+# Custom command for timestamp_506f3f488bf82f02219bd32f7507ba85
 
-build timestamp_a0007f97c4dbb46457d2c647614760e8 | ${cmake_ninja_workdir}timestamp_a0007f97c4dbb46457d2c647614760e8: CUSTOM_COMMAND C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\res\fragment.glsl || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_a0007f97c4dbb46457d2c647614760e8 && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/fragment.glsl C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/res/fragment.glsl"
-  DESC = Copying "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/fragment.glsl" to "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/res/fragment.glsl"
+build timestamp_506f3f488bf82f02219bd32f7507ba85 | ${cmake_ninja_workdir}timestamp_506f3f488bf82f02219bd32f7507ba85: CUSTOM_COMMAND C$:\Users\PC\Documents\GitHub\C---Rendering\res\fragment.glsl || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_506f3f488bf82f02219bd32f7507ba85 && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/PC/Documents/GitHub/C---Rendering/res/fragment.glsl C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/fragment.glsl"
+  DESC = Copying "C:/Users/PC/Documents/GitHub/C---Rendering/res/fragment.glsl" to "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/fragment.glsl"
   restat = 1
 
 
 #############################################
-# Custom command for timestamp_c74c040d37717b8d4b876219176a271d
+# Custom command for timestamp_1a55800068c1111e62cbcaf40457014c
 
-build timestamp_c74c040d37717b8d4b876219176a271d | ${cmake_ninja_workdir}timestamp_c74c040d37717b8d4b876219176a271d: CUSTOM_COMMAND C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\res\vertex.glsl || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_c74c040d37717b8d4b876219176a271d && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/vertex.glsl C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/res/vertex.glsl"
-  DESC = Copying "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/vertex.glsl" to "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/res/vertex.glsl"
+build timestamp_1a55800068c1111e62cbcaf40457014c | ${cmake_ninja_workdir}timestamp_1a55800068c1111e62cbcaf40457014c: CUSTOM_COMMAND C$:\Users\PC\Documents\GitHub\C---Rendering\res\vertex.glsl || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_1a55800068c1111e62cbcaf40457014c && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/PC/Documents/GitHub/C---Rendering/res/vertex.glsl C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/vertex.glsl"
+  DESC = Copying "C:/Users/PC/Documents/GitHub/C---Rendering/res/vertex.glsl" to "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/vertex.glsl"
   restat = 1
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/CMakeLists.txt
+# C:/Users/PC/Documents/GitHub/C---Rendering/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -171,73 +171,73 @@ build timestamp_c74c040d37717b8d4b876219176a271d | ${cmake_ninja_workdir}timesta
 
 build cmake_object_order_depends_target_opengl_framework: phony || cmake_object_order_depends_target_exe_path cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_img cmake_object_order_depends_target_stb_image
 
-build opengl-framework\CMakeFiles\opengl_framework.dir\src\Camera.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\src\Camera.cpp || cmake_object_order_depends_target_opengl_framework
+build opengl-framework\CMakeFiles\opengl_framework.dir\src\Camera.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\src\Camera.cpp || cmake_object_order_depends_target_opengl_framework
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\opengl_framework.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\opengl_framework.dir\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\opengl_framework.dir\opengl_framework.pdb
   TARGET_PDB = opengl-framework\opengl_framework.pdb
 
-build opengl-framework\CMakeFiles\opengl_framework.dir\src\Mesh.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\src\Mesh.cpp || cmake_object_order_depends_target_opengl_framework
+build opengl-framework\CMakeFiles\opengl_framework.dir\src\Mesh.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\src\Mesh.cpp || cmake_object_order_depends_target_opengl_framework
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\opengl_framework.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\opengl_framework.dir\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\opengl_framework.dir\opengl_framework.pdb
   TARGET_PDB = opengl-framework\opengl_framework.pdb
 
-build opengl-framework\CMakeFiles\opengl_framework.dir\src\RenderTarget.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\src\RenderTarget.cpp || cmake_object_order_depends_target_opengl_framework
+build opengl-framework\CMakeFiles\opengl_framework.dir\src\RenderTarget.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\src\RenderTarget.cpp || cmake_object_order_depends_target_opengl_framework
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\opengl_framework.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\opengl_framework.dir\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\opengl_framework.dir\opengl_framework.pdb
   TARGET_PDB = opengl-framework\opengl_framework.pdb
 
-build opengl-framework\CMakeFiles\opengl_framework.dir\src\Shader.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\src\Shader.cpp || cmake_object_order_depends_target_opengl_framework
+build opengl-framework\CMakeFiles\opengl_framework.dir\src\Shader.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\src\Shader.cpp || cmake_object_order_depends_target_opengl_framework
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\opengl_framework.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\opengl_framework.dir\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\opengl_framework.dir\opengl_framework.pdb
   TARGET_PDB = opengl-framework\opengl_framework.pdb
 
-build opengl-framework\CMakeFiles\opengl_framework.dir\src\Texture.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\src\Texture.cpp || cmake_object_order_depends_target_opengl_framework
+build opengl-framework\CMakeFiles\opengl_framework.dir\src\Texture.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\src\Texture.cpp || cmake_object_order_depends_target_opengl_framework
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\opengl_framework.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\opengl_framework.dir\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\opengl_framework.dir\opengl_framework.pdb
   TARGET_PDB = opengl-framework\opengl_framework.pdb
 
-build opengl-framework\CMakeFiles\opengl_framework.dir\src\handle_error.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\src\handle_error.cpp || cmake_object_order_depends_target_opengl_framework
+build opengl-framework\CMakeFiles\opengl_framework.dir\src\handle_error.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\src\handle_error.cpp || cmake_object_order_depends_target_opengl_framework
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\opengl_framework.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\opengl_framework.dir\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\opengl_framework.dir\opengl_framework.pdb
   TARGET_PDB = opengl-framework\opengl_framework.pdb
 
-build opengl-framework\CMakeFiles\opengl_framework.dir\src\make_absolute_path.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\src\make_absolute_path.cpp || cmake_object_order_depends_target_opengl_framework
+build opengl-framework\CMakeFiles\opengl_framework.dir\src\make_absolute_path.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\src\make_absolute_path.cpp || cmake_object_order_depends_target_opengl_framework
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\opengl_framework.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\opengl_framework.dir\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\opengl_framework.dir\opengl_framework.pdb
   TARGET_PDB = opengl-framework\opengl_framework.pdb
 
-build opengl-framework\CMakeFiles\opengl_framework.dir\src\opengl-framework.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\src\opengl-framework.cpp || cmake_object_order_depends_target_opengl_framework
+build opengl-framework\CMakeFiles\opengl_framework.dir\src\opengl-framework.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\src\opengl-framework.cpp || cmake_object_order_depends_target_opengl_framework
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\opengl_framework.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\opengl_framework.dir\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\opengl_framework.dir\opengl_framework.pdb
   TARGET_PDB = opengl-framework\opengl_framework.pdb
 
-build opengl-framework\CMakeFiles\opengl_framework.dir\src\tinyobjloader.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\src\tinyobjloader.cpp || cmake_object_order_depends_target_opengl_framework
+build opengl-framework\CMakeFiles\opengl_framework.dir\src\tinyobjloader.cpp.obj: CXX_COMPILER__opengl_framework_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\src\tinyobjloader.cpp || cmake_object_order_depends_target_opengl_framework
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\include -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\tinyobjloader -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\include -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\opengl_framework.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\opengl_framework.dir\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\opengl_framework.dir\opengl_framework.pdb
@@ -270,9 +270,9 @@ build opengl-framework\opengl_framework.lib: CXX_STATIC_LIBRARY_LINKER__opengl_f
 
 build cmake_object_order_depends_target_glad: phony || .
 
-build opengl-framework\CMakeFiles\glad.dir\lib\glad\src\gl.c.obj: C_COMPILER__glad_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\src\gl.c || cmake_object_order_depends_target_glad
+build opengl-framework\CMakeFiles\glad.dir\lib\glad\src\gl.c.obj: C_COMPILER__glad_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\src\gl.c || cmake_object_order_depends_target_glad
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glad\include -external:W0
+  INCLUDES = -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glad\include -external:W0
   OBJECT_DIR = opengl-framework\CMakeFiles\glad.dir
   OBJECT_FILE_DIR = opengl-framework\CMakeFiles\glad.dir\lib\glad\src
   TARGET_COMPILE_PDB = opengl-framework\CMakeFiles\glad.dir\glad.pdb
@@ -301,7 +301,7 @@ build opengl-framework\glad.lib: C_STATIC_LIBRARY_LINKER__glad_Debug opengl-fram
 # Utility command for edit_cache
 
 build opengl-framework\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -312,7 +312,7 @@ build opengl-framework\edit_cache: phony opengl-framework\CMakeFiles\edit_cache.
 # Utility command for rebuild_cache
 
 build opengl-framework\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering -BC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\GitHub\C---Rendering -BC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -330,7 +330,7 @@ build opengl-framework\list_install_components: phony
 # Utility command for install
 
 build opengl-framework\CMakeFiles\install.util: CUSTOM_COMMAND opengl-framework\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -342,7 +342,7 @@ build opengl-framework\install: phony opengl-framework\CMakeFiles\install.util
 # Utility command for install/local
 
 build opengl-framework\CMakeFiles\install\local.util: CUSTOM_COMMAND opengl-framework\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -351,7 +351,7 @@ build opengl-framework\install\local: phony opengl-framework\CMakeFiles\install\
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/CMakeLists.txt
+# C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/CMakeLists.txt
 # =============================================================================
 
 
@@ -365,7 +365,7 @@ build opengl-framework\lib\glm\uninstall: phony opengl-framework\lib\glm\CMakeFi
 # Utility command for edit_cache
 
 build opengl-framework\lib\glm\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -376,7 +376,7 @@ build opengl-framework\lib\glm\edit_cache: phony opengl-framework\lib\glm\CMakeF
 # Utility command for rebuild_cache
 
 build opengl-framework\lib\glm\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering -BC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\GitHub\C---Rendering -BC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -394,7 +394,7 @@ build opengl-framework\lib\glm\list_install_components: phony
 # Utility command for install
 
 build opengl-framework\lib\glm\CMakeFiles\install.util: CUSTOM_COMMAND opengl-framework\lib\glm\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -406,7 +406,7 @@ build opengl-framework\lib\glm\install: phony opengl-framework\lib\glm\CMakeFile
 # Utility command for install/local
 
 build opengl-framework\lib\glm\CMakeFiles\install\local.util: CUSTOM_COMMAND opengl-framework\lib\glm\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -418,11 +418,11 @@ build opengl-framework\lib\glm\install\local: phony opengl-framework\lib\glm\CMa
 # Custom command for opengl-framework\lib\glm\CMakeFiles\uninstall
 
 build opengl-framework\lib\glm\CMakeFiles\uninstall | ${cmake_ninja_workdir}opengl-framework\lib\glm\CMakeFiles\uninstall: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/cmake_uninstall.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glm && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/cmake_uninstall.cmake"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/lib/glm/CMakeLists.txt
+# C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/lib/glm/CMakeLists.txt
 # =============================================================================
 
 
@@ -430,7 +430,7 @@ build opengl-framework\lib\glm\CMakeFiles\uninstall | ${cmake_ninja_workdir}open
 # Utility command for edit_cache
 
 build opengl-framework\lib\glm\glm\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glm\glm && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glm\glm && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -441,7 +441,7 @@ build opengl-framework\lib\glm\glm\edit_cache: phony opengl-framework\lib\glm\gl
 # Utility command for rebuild_cache
 
 build opengl-framework\lib\glm\glm\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glm\glm && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering -BC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glm\glm && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\GitHub\C---Rendering -BC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -459,7 +459,7 @@ build opengl-framework\lib\glm\glm\list_install_components: phony
 # Utility command for install
 
 build opengl-framework\lib\glm\glm\CMakeFiles\install.util: CUSTOM_COMMAND opengl-framework\lib\glm\glm\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glm\glm && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glm\glm && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -471,7 +471,7 @@ build opengl-framework\lib\glm\glm\install: phony opengl-framework\lib\glm\glm\C
 # Utility command for install/local
 
 build opengl-framework\lib\glm\glm\CMakeFiles\install\local.util: CUSTOM_COMMAND opengl-framework\lib\glm\glm\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glm\glm && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glm\glm && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -480,7 +480,7 @@ build opengl-framework\lib\glm\glm\install\local: phony opengl-framework\lib\glm
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/CMakeLists.txt
+# C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -492,17 +492,17 @@ build opengl-framework\lib\glm\glm\install\local: phony opengl-framework\lib\glm
 
 build cmake_object_order_depends_target_img: phony || cmake_object_order_depends_target_stb_image
 
-build opengl-framework\lib\img\CMakeFiles\img.dir\src\Load.cpp.obj: CXX_COMPILER__img_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\src\Load.cpp || cmake_object_order_depends_target_img
+build opengl-framework\lib\img\CMakeFiles\img.dir\src\Load.cpp.obj: CXX_COMPILER__img_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\src\Load.cpp || cmake_object_order_depends_target_img
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:W0
+  INCLUDES = -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:W0
   OBJECT_DIR = opengl-framework\lib\img\CMakeFiles\img.dir
   OBJECT_FILE_DIR = opengl-framework\lib\img\CMakeFiles\img.dir\src
   TARGET_COMPILE_PDB = opengl-framework\lib\img\CMakeFiles\img.dir\img.pdb
   TARGET_PDB = opengl-framework\lib\img\img.pdb
 
-build opengl-framework\lib\img\CMakeFiles\img.dir\src\Save.cpp.obj: CXX_COMPILER__img_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\src\Save.cpp || cmake_object_order_depends_target_img
+build opengl-framework\lib\img\CMakeFiles\img.dir\src\Save.cpp.obj: CXX_COMPILER__img_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\src\Save.cpp || cmake_object_order_depends_target_img
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /W4
-  INCLUDES = -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib -external:W0
+  INCLUDES = -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib -external:W0
   OBJECT_DIR = opengl-framework\lib\img\CMakeFiles\img.dir
   OBJECT_FILE_DIR = opengl-framework\lib\img\CMakeFiles\img.dir\src
   TARGET_COMPILE_PDB = opengl-framework\lib\img\CMakeFiles\img.dir\img.pdb
@@ -535,14 +535,14 @@ build opengl-framework\lib\img\img.lib: CXX_STATIC_LIBRARY_LINKER__img_Debug ope
 
 build cmake_object_order_depends_target_stb_image: phony || .
 
-build opengl-framework\lib\img\CMakeFiles\stb_image.dir\lib\stb_image\stb_image.cpp.obj: CXX_COMPILER__stb_image_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib\stb_image\stb_image.cpp || cmake_object_order_depends_target_stb_image
+build opengl-framework\lib\img\CMakeFiles\stb_image.dir\lib\stb_image\stb_image.cpp.obj: CXX_COMPILER__stb_image_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib\stb_image\stb_image.cpp || cmake_object_order_depends_target_stb_image
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   OBJECT_DIR = opengl-framework\lib\img\CMakeFiles\stb_image.dir
   OBJECT_FILE_DIR = opengl-framework\lib\img\CMakeFiles\stb_image.dir\lib\stb_image
   TARGET_COMPILE_PDB = opengl-framework\lib\img\CMakeFiles\stb_image.dir\stb_image.pdb
   TARGET_PDB = opengl-framework\lib\img\stb_image.pdb
 
-build opengl-framework\lib\img\CMakeFiles\stb_image.dir\lib\stb_image\stb_image_write.cpp.obj: CXX_COMPILER__stb_image_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\lib\stb_image\stb_image_write.cpp || cmake_object_order_depends_target_stb_image
+build opengl-framework\lib\img\CMakeFiles\stb_image.dir\lib\stb_image\stb_image_write.cpp.obj: CXX_COMPILER__stb_image_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\lib\stb_image\stb_image_write.cpp || cmake_object_order_depends_target_stb_image
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   OBJECT_DIR = opengl-framework\lib\img\CMakeFiles\stb_image.dir
   OBJECT_FILE_DIR = opengl-framework\lib\img\CMakeFiles\stb_image.dir\lib\stb_image
@@ -572,7 +572,7 @@ build opengl-framework\lib\img\stb_image.lib: CXX_STATIC_LIBRARY_LINKER__stb_ima
 # Utility command for edit_cache
 
 build opengl-framework\lib\img\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\img && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\img && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -583,7 +583,7 @@ build opengl-framework\lib\img\edit_cache: phony opengl-framework\lib\img\CMakeF
 # Utility command for rebuild_cache
 
 build opengl-framework\lib\img\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\img && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering -BC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\img && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\GitHub\C---Rendering -BC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -601,7 +601,7 @@ build opengl-framework\lib\img\list_install_components: phony
 # Utility command for install
 
 build opengl-framework\lib\img\CMakeFiles\install.util: CUSTOM_COMMAND opengl-framework\lib\img\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\img && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\img && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -613,7 +613,7 @@ build opengl-framework\lib\img\install: phony opengl-framework\lib\img\CMakeFile
 # Utility command for install/local
 
 build opengl-framework\lib\img\CMakeFiles\install\local.util: CUSTOM_COMMAND opengl-framework\lib\img\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\img && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\img && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -622,7 +622,7 @@ build opengl-framework\lib\img\install\local: phony opengl-framework\lib\img\CMa
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/CMakeLists.txt
+# C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -634,9 +634,9 @@ build opengl-framework\lib\img\install\local: phony opengl-framework\lib\img\CMa
 
 build cmake_object_order_depends_target_exe_path: phony || .
 
-build opengl-framework\lib\exe_path\CMakeFiles\exe_path.dir\src\exe_path.cpp.obj: CXX_COMPILER__exe_path_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\src\exe_path.cpp || cmake_object_order_depends_target_exe_path
+build opengl-framework\lib\exe_path\CMakeFiles\exe_path.dir\src\exe_path.cpp.obj: CXX_COMPILER__exe_path_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\src\exe_path.cpp || cmake_object_order_depends_target_exe_path
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4
-  INCLUDES = -external:IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\include -external:W0
+  INCLUDES = -external:IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\include -external:W0
   OBJECT_DIR = opengl-framework\lib\exe_path\CMakeFiles\exe_path.dir
   OBJECT_FILE_DIR = opengl-framework\lib\exe_path\CMakeFiles\exe_path.dir\src
   TARGET_COMPILE_PDB = opengl-framework\lib\exe_path\CMakeFiles\exe_path.dir\exe_path.pdb
@@ -665,7 +665,7 @@ build opengl-framework\lib\exe_path\exe_path.lib: CXX_STATIC_LIBRARY_LINKER__exe
 # Utility command for edit_cache
 
 build opengl-framework\lib\exe_path\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\exe_path && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\exe_path && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -676,7 +676,7 @@ build opengl-framework\lib\exe_path\edit_cache: phony opengl-framework\lib\exe_p
 # Utility command for rebuild_cache
 
 build opengl-framework\lib\exe_path\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\exe_path && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering -BC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\exe_path && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\GitHub\C---Rendering -BC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -694,7 +694,7 @@ build opengl-framework\lib\exe_path\list_install_components: phony
 # Utility command for install
 
 build opengl-framework\lib\exe_path\CMakeFiles\install.util: CUSTOM_COMMAND opengl-framework\lib\exe_path\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\exe_path && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\exe_path && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -706,7 +706,7 @@ build opengl-framework\lib\exe_path\install: phony opengl-framework\lib\exe_path
 # Utility command for install/local
 
 build opengl-framework\lib\exe_path\CMakeFiles\install\local.util: CUSTOM_COMMAND opengl-framework\lib\exe_path\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\exe_path && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\exe_path && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -715,7 +715,7 @@ build opengl-framework\lib\exe_path\install\local: phony opengl-framework\lib\ex
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/CMakeLists.txt
+# C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/CMakeLists.txt
 # =============================================================================
 
 
@@ -723,7 +723,7 @@ build opengl-framework\lib\exe_path\install\local: phony opengl-framework\lib\ex
 # Utility command for edit_cache
 
 build opengl-framework\lib\glfw\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -734,7 +734,7 @@ build opengl-framework\lib\glfw\edit_cache: phony opengl-framework\lib\glfw\CMak
 # Utility command for rebuild_cache
 
 build opengl-framework\lib\glfw\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering -BC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\GitHub\C---Rendering -BC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -752,7 +752,7 @@ build opengl-framework\lib\glfw\list_install_components: phony
 # Utility command for install
 
 build opengl-framework\lib\glfw\CMakeFiles\install.util: CUSTOM_COMMAND opengl-framework\lib\glfw\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -764,7 +764,7 @@ build opengl-framework\lib\glfw\install: phony opengl-framework\lib\glfw\CMakeFi
 # Utility command for install/local
 
 build opengl-framework\lib\glfw\CMakeFiles\install\local.util: CUSTOM_COMMAND opengl-framework\lib\glfw\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -773,7 +773,7 @@ build opengl-framework\lib\glfw\install\local: phony opengl-framework\lib\glfw\C
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/lib/glfw/CMakeLists.txt
+# C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/lib/glfw/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -785,190 +785,190 @@ build opengl-framework\lib\glfw\install\local: phony opengl-framework\lib\glfw\C
 
 build cmake_object_order_depends_target_glfw: phony || .
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\context.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\init.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\input.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\monitor.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\platform.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\vulkan.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\window.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\egl_context.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\osmesa_context.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\null_init.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\null_monitor.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\null_window.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\null_joystick.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\win32_module.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\win32_time.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\win32_thread.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\win32_init.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\win32_joystick.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\win32_monitor.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\win32_window.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_PDB = opengl-framework\lib\glfw\src\glfw3.pdb
 
-build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\wgl_context.c || cmake_object_order_depends_target_glfw
+build opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3
-  INCLUDES = -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\include -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src -IC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
+  INCLUDES = -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\include -IC:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src -IC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src
   OBJECT_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = opengl-framework\lib\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -1003,7 +1003,7 @@ build opengl-framework\lib\glfw\src\update_mappings: phony opengl-framework\lib\
 # Utility command for edit_cache
 
 build opengl-framework\lib\glfw\src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1014,7 +1014,7 @@ build opengl-framework\lib\glfw\src\edit_cache: phony opengl-framework\lib\glfw\
 # Utility command for rebuild_cache
 
 build opengl-framework\lib\glfw\src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering -BC:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\PC\Documents\GitHub\C---Rendering -BC:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1032,7 +1032,7 @@ build opengl-framework\lib\glfw\src\list_install_components: phony
 # Utility command for install
 
 build opengl-framework\lib\glfw\src\CMakeFiles\install.util: CUSTOM_COMMAND opengl-framework\lib\glfw\src\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1044,7 +1044,7 @@ build opengl-framework\lib\glfw\src\install: phony opengl-framework\lib\glfw\src
 # Utility command for install/local
 
 build opengl-framework\lib\glfw\src\CMakeFiles\install\local.util: CUSTOM_COMMAND opengl-framework\lib\glfw\src\all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1056,7 +1056,7 @@ build opengl-framework\lib\glfw\src\install\local: phony opengl-framework\lib\gl
 # Custom command for opengl-framework\lib\glfw\src\CMakeFiles\update_mappings
 
 build opengl-framework\lib\glfw\src\CMakeFiles\update_mappings | ${cmake_ninja_workdir}opengl-framework\lib\glfw\src\CMakeFiles\update_mappings: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/lib/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/lib/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
@@ -1098,56 +1098,56 @@ build update_mappings: phony opengl-framework\lib\glfw\src\update_mappings
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug
+# Folder: C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug
 
 build all: phony TPs-Rendering.exe opengl-framework\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework
+# Folder: C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework
 
 build opengl-framework\all: phony opengl-framework\opengl_framework.lib opengl-framework\glad.lib opengl-framework\lib\glm\all opengl-framework\lib\img\all opengl-framework\lib\exe_path\all opengl-framework\lib\glfw\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework/lib/exe_path
+# Folder: C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework/lib/exe_path
 
 build opengl-framework\lib\exe_path\all: phony opengl-framework\lib\exe_path\exe_path.lib
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework/lib/glfw
+# Folder: C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework/lib/glfw
 
 build opengl-framework\lib\glfw\all: phony opengl-framework\lib\glfw\src\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework/lib/glfw/src
+# Folder: C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework/lib/glfw/src
 
 build opengl-framework\lib\glfw\src\all: phony opengl-framework\lib\glfw\src\glfw3.lib
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework/lib/glm
+# Folder: C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework/lib/glm
 
 build opengl-framework\lib\glm\all: phony opengl-framework\lib\glm\glm\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework/lib/glm/glm
+# Folder: C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework/lib/glm/glm
 
 build opengl-framework\lib\glm\glm\all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework/lib/img
+# Folder: C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework/lib/img
 
 build opengl-framework\lib\img\all: phony opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib
 
@@ -1158,13 +1158,13 @@ build opengl-framework\lib\img\all: phony opengl-framework\lib\img\img.lib openg
 #############################################
 # Phony target to force glob verification run.
 
-build C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake_force: phony
+build C$:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake_force: phony
 
 
 #############################################
 # Re-run CMake to check if globbed directories changed.
 
-build C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\CMakeFiles\cmake.verify_globs: VERIFY_GLOBS | C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake_force
+build C$:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\CMakeFiles\cmake.verify_globs: VERIFY_GLOBS | C$:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake_force
   pool = console
   restat = 1
 
@@ -1172,14 +1172,14 @@ build C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-d
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\CMakeFiles\cmake.verify_globs | C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompilerABI.c C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDependentOption.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystem.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckIncludeFile.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckLibraryExists.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageMessage.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\FindThreads.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\GNUInstallDirs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\CMakeUtils\files_and_folders.cmake C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\CMake\glfw3.pc.in C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\CMake\glfw3Config.cmake.in C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm\cmake\cmake_uninstall.cmake.in C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm\glm\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5\CMakeCCompiler.cmake CMakeFiles\3.30.5\CMakeCXXCompiler.cmake CMakeFiles\3.30.5\CMakeRCCompiler.cmake CMakeFiles\3.30.5\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE C$:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\CMakeFiles\cmake.verify_globs | C$:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompilerABI.c C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDependentOption.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystem.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckIncludeFile.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckLibraryExists.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageMessage.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\FindThreads.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\GNUInstallDirs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\PC\Documents\GitHub\C---Rendering\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\CMakeUtils\files_and_folders.cmake C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\CMake\glfw3.pc.in C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\CMake\glfw3Config.cmake.in C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm\cmake\cmake_uninstall.cmake.in C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm\glm\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5\CMakeCCompiler.cmake CMakeFiles\3.30.5\CMakeCXXCompiler.cmake CMakeFiles\3.30.5\CMakeRCCompiler.cmake CMakeFiles\3.30.5\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompilerABI.c C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDependentOption.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystem.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckIncludeFile.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckLibraryExists.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageMessage.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\FindThreads.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\GNUInstallDirs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\CMakeUtils\files_and_folders.cmake C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\exe_path\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\CMake\glfw3.pc.in C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\CMake\glfw3Config.cmake.in C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glfw\src\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm\cmake\cmake_uninstall.cmake.in C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\glm\glm\CMakeLists.txt C$:\Users\Sknet\Documents\GitHub\cpp_rendering\Cpp-Rendering\opengl-framework\lib\img\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5\CMakeCCompiler.cmake CMakeFiles\3.30.5\CMakeCXXCompiler.cmake CMakeFiles\3.30.5\CMakeRCCompiler.cmake CMakeFiles\3.30.5\CMakeSystem.cmake: phony
+build C$:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompilerABI.c C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDependentOption.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystem.cmake.in C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckIncludeFile.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckLibraryExists.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageMessage.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\FindThreads.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\GNUInstallDirs.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\JetBrains\CLion$ 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake C$:\Users\PC\Documents\GitHub\C---Rendering\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\CMakeUtils\files_and_folders.cmake C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\exe_path\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\CMake\glfw3.pc.in C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\CMake\glfw3Config.cmake.in C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glfw\src\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm\cmake\cmake_uninstall.cmake.in C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\glm\glm\CMakeLists.txt C$:\Users\PC\Documents\GitHub\C---Rendering\opengl-framework\lib\img\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5\CMakeCCompiler.cmake CMakeFiles\3.30.5\CMakeCXXCompiler.cmake CMakeFiles\3.30.5\CMakeRCCompiler.cmake CMakeFiles\3.30.5\CMakeSystem.cmake: phony
 
 
 #############################################

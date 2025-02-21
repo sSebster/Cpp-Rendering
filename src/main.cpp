@@ -5,16 +5,19 @@
 
 int main()
 {
-    std::ifstream vShader;
-    std::string vertexCode;
-    vShader.open(".\\res\\vertex.glsl");
-    std::stringstream vertexStream;
-    vertexStream << vShader.rdbuf();
-    vShader.close();
-    vertexCode = vertexStream.str();
-    std::cout << "Debut\n"<< vertexCode << "\nFin" << std::endl;
+    //Debug
+    //std::ifstream vShader;
+    //std::string vertexCode;
+    //vShader.open(".\\res\\vertex.glsl");
+    //std::stringstream vertexStream;
+    //vertexStream << vShader.rdbuf();
+    //vShader.close();
+    //vertexCode = vertexStream.str();
+    //std::cout << "Debut\n"<< vertexCode << "\nFin" << std::endl;
 
     //return 0;
+    //debug
+
     // Initialisation
     gl::init("Rendering couscous"); // On crée une fenêtre et on choisit son nom
     gl::maximize_window(); // On peut la maximiser si on veut
@@ -53,11 +56,15 @@ int main()
     // Rendu à chaque frame
     while (gl::window_is_open())
     {
-        glClearColor(0.f, 1.f, 0.5f, 0.5f); // Choisis la couleur à utiliser. Les paramètres sont R, G, B, A avec des valeurs qui vont de 0 à 1
+        glClearColor(0.f, 0.f, 1.f, 1.f); // Choisis la couleur à utiliser. Les paramètres sont R, G, B, A avec des valeurs qui vont de 0 à 1
         glClear(GL_COLOR_BUFFER_BIT); // Exécute concrètement l'action d'appliquer sur tout l'écran la couleur choisie au-dessus
 
         shader.bind(); // On a besoin qu'un shader soit bind (i.e. "actif") avant de draw(). On en reparle dans la section d'après.
+        shader.set_uniform("aspect_ratio", gl::framebuffer_aspect_ratio());
+
         rectangle_mesh.draw(); // C'est ce qu'on appelle un "draw call" : on envoie l'instruction à la carte graphique de dessiner notre mesh.
+
+
     }
 
 }
