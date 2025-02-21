@@ -1,6 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include "glm/ext/matrix_clip_space.hpp"
+#include "glm/ext/matrix_transform.hpp"
 
 #include "opengl-framework/opengl-framework.hpp" // Inclue la librairie qui va nous servir à faire du rendu
 
@@ -47,12 +48,12 @@ int main()
 
     auto const rectangle_mesh = gl::Mesh{{
         .vertex_buffers = {{
-            .layout = {gl::VertexAttribute::Position2D{0}},
+            .layout = {gl::VertexAttribute::Position3D{0}},
             .data   = {
-                -0.5f, -0.5f, // Position2D du 1er sommet
-                +0.5f, -0.5f, // Position2D du 2ème sommet
-                +0.5f, +0.5f, // Position2D du 3ème sommet
-                -0.5f, +0.5f  // Position2D du 4ème sommet
+                -0.5f, -0.5f, -0.5, // Position3D du 1er sommet
+                +0.5f, -0.5f, -0.5f // Position3D du 2ème sommet
+                +0.5f, +0.5f, +0.5f// Position3D du 3ème sommet
+                -0.5f, +0.5f, +0.5f  // Position3D du 4ème sommet
             },
         }},
         .index_buffer   = {
@@ -85,8 +86,11 @@ int main()
         });
 
         glm::mat4 const projection_matrix = glm::infinitePerspective(glm::radians(45.f), gl::framebuffer_aspect_ratio(), 0.001f);
+        glm::mat4 const rotation = glm::rotate(glm::mat4{1.f}, gl::time_in_seconds() /*angle de la rotation*/, glm::vec3{0.f, 0.f, 1.f} /* axe autour duquel on tourne */);
+        glm::mat4 const translation = glm::translate(glm::mat4{1.f}, glm::vec3{0.f, 1.f, 0.f} /* déplacement */);
 
-        shader.set_uniform("mat",projection_matrix*view_matrix);
+        glm::mat4 const model_matrix = rotation*translation;
+        shader.set_uniform("mat",projection_matrix*view_matrix*model_matrix);
     }
 
 }
