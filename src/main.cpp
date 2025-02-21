@@ -1,28 +1,26 @@
+#include <fstream>
+#include <iostream>
+
 #include "opengl-framework/opengl-framework.hpp" // Inclue la librairie qui va nous servir à faire du rendu
 
 int main()
 {
+    std::ifstream vShader;
+    std::string vertexCode;
+    vShader.open(".\\res\\vertex.glsl");
+    std::stringstream vertexStream;
+    vertexStream << vShader.rdbuf();
+    vShader.close();
+    vertexCode = vertexStream.str();
+    std::cout << "Debut\n"<< vertexCode << "\nFin" << std::endl;
+
+    //return 0;
     // Initialisation
     gl::init("Rendering couscous"); // On crée une fenêtre et on choisit son nom
     gl::maximize_window(); // On peut la maximiser si on veut
     auto const shader = gl::Shader{{
-        .vertex   = gl::ShaderSource::Code{R"glsl(#version 410
-layout(location = 0) in vec2 in_position;
-
-void main()
-{
-    vec2 position = in_position;
-    position = position +0.4;
-    gl_Position = vec4(position, 0., 1.);
-})glsl"},
-        .fragment = gl::ShaderSource::Code{R"glsl(#version 410
-
-out vec4 out_color;
-
-void main()
-{
-    out_color = vec4(1., 1., 0., 1.);
-})glsl"},
+        .vertex   = gl::ShaderSource::File{"res/vertex.glsl"},
+        .fragment = gl::ShaderSource::File{"res/fragment.glsl"},
     }};
 
     auto const triangle_mesh = gl::Mesh{{

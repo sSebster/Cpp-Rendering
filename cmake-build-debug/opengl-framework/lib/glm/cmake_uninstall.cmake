@@ -1,14 +1,14 @@
-if(NOT EXISTS "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/install_manifest.txt")
+if(NOT EXISTS "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/install_manifest.txt")
 endif()
 
-file(READ "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/install_manifest.txt" files)
+file(READ "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")
   if(IS_SYMLINK "$ENV{DESTDIR}${file}" OR EXISTS "$ENV{DESTDIR}${file}")
     exec_program(
-      "C:/Program Files/JetBrains/CLion 2024.3.2/bin/cmake/win/x64/bin/cmake.exe" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+      "C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/bin/cmake.exe" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
       OUTPUT_VARIABLE rm_out
       RETURN_VALUE rm_retval
       )

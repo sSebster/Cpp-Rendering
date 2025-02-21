@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/lib/glm
+# Install script for directory: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/lib/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework/lib/glm/glm/cmake_install.cmake")
+  include("C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework/lib/glm/glm/cmake_install.cmake")
 
 endif()
 

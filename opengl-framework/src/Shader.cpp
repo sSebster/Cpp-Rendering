@@ -2,6 +2,7 @@
 #include <cassert>
 #include <format>
 #include <fstream>
+#include <iostream>
 #include <vector>
 
 #include "Texture.hpp"
@@ -38,10 +39,11 @@ auto get_source_code(gl::ShaderSource::Code const& source) -> std::string
 }
 auto get_source_code(gl::ShaderSource::File const& source) -> std::string
 {
-    std::ifstream      file{gl::make_absolute_path(source.path)};
-    std::ostringstream buffer;
-    buffer << file.rdbuf();
-    return buffer.str();
+    auto ifs = std::ifstream{gl::make_absolute_path(source.path)};
+    std::string cassecouille = std::string{std::istreambuf_iterator<char>{ifs}, {}};
+    cassecouille = cassecouille.replace(0,3,"\n");
+    std::cout << cassecouille << std::endl;
+    return cassecouille;
 }
 
 class UniqueShaderModule {
