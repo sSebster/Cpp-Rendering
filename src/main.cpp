@@ -21,6 +21,10 @@ int main()
     // Initialisation
     gl::init("Rendering couscous"); // On crée une fenêtre et on choisit son nom
     gl::maximize_window(); // On peut la maximiser si on veut
+
+    glEnable(GL_BLEND);
+    glBlendFuncSeparate(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA, GL_ONE_MINUS_DST_ALPHA, GL_ONE); // On peut configurer l'équation qui mélange deux couleurs, comme pour faire différents blend mode dans Photoshop. Cette équation-ci donne le blending "normal" entre pixels transparents.
+
     auto const shader = gl::Shader{{
         .vertex   = gl::ShaderSource::File{"res/vertex.glsl"},
         .fragment = gl::ShaderSource::File{"res/fragment.glsl"},
@@ -60,7 +64,9 @@ int main()
         glClear(GL_COLOR_BUFFER_BIT); // Exécute concrètement l'action d'appliquer sur tout l'écran la couleur choisie au-dessus
 
         shader.bind(); // On a besoin qu'un shader soit bind (i.e. "actif") avant de draw(). On en reparle dans la section d'après.
+
         shader.set_uniform("aspect_ratio", gl::framebuffer_aspect_ratio());
+        shader.set_uniform("positionIG", gl::time_in_seconds());
 
         rectangle_mesh.draw(); // C'est ce qu'on appelle un "draw call" : on envoie l'instruction à la carte graphique de dessiner notre mesh.
 
