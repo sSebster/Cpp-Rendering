@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include "glm/ext/matrix_clip_space.hpp"
 
 #include "opengl-framework/opengl-framework.hpp" // Inclue la librairie qui va nous servir à faire du rendu
 
@@ -24,6 +25,9 @@ int main()
 
     glEnable(GL_BLEND);
     glBlendFuncSeparate(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA, GL_ONE_MINUS_DST_ALPHA, GL_ONE); // On peut configurer l'équation qui mélange deux couleurs, comme pour faire différents blend mode dans Photoshop. Cette équation-ci donne le blending "normal" entre pixels transparents.
+
+    auto camera = gl::Camera{};
+    gl::set_events_callbacks({camera.events_callbacks()});
 
     auto const shader = gl::Shader{{
         .vertex   = gl::ShaderSource::File{"res/vertex.glsl"},
@@ -70,7 +74,19 @@ int main()
 
         rectangle_mesh.draw(); // C'est ce qu'on appelle un "draw call" : on envoie l'instruction à la carte graphique de dessiner notre mesh.
 
+        glm::mat4 const view_matrix = camera.view_matrix();
+        gl::set_events_callbacks({
+            camera.events_callbacks(),
+            {
+                .on_mouse_pressed = [&](gl::MousePressedEvent const& e) {
+                    std::cout << "Mouse pressed at " << e.position.x << " " << e.position.y << '\n';
+                },
+            },
+        });
 
+        glm::mat4 const projection_matrix = glm::infinitePerspective(glm::radians(45.f), gl::framebuffer_aspect_ratio(), 0.001f);
+
+        shader.set_uniform("mat",projection_matrix*view_matrix);
     }
 
 }
