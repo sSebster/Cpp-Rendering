@@ -2,6 +2,9 @@
 
 layout(location = 0) in vec3 in_position;
 
+in vec2 in_uv;
+out vec2 uv;
+
 uniform float aspect_ratio;
 uniform float positionIG;
 uniform mat4 mat;
@@ -20,4 +23,6 @@ void main()
 
     gl_Position = vec4(vertex_position, 1.);
     gl_Position = mat * gl_Position;
+
+    uv = in_uv;
 }

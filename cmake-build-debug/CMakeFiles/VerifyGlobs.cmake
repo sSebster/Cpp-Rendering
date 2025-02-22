@@ -45,6 +45,7 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Sknet/Documents/GitH
 set(OLD_GLOB
   "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/.gitkeep"
   "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/fragment.glsl"
+  "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/texture.png"
   "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/res/vertex.glsl"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
