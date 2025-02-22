@@ -50,15 +50,29 @@ int main()
         .vertex_buffers = {{
             .layout = {gl::VertexAttribute::Position3D{0}},
             .data   = {
-                -0.5f, -0.5f, -0.5, // Position3D du 1er sommet
-                +0.5f, -0.5f, -0.5f // Position3D du 2ème sommet
-                +0.5f, +0.5f, +0.5f// Position3D du 3ème sommet
-                -0.5f, +0.5f, +0.5f  // Position3D du 4ème sommet
+                +0.f, +0.f, +0.f, // Position3D du 1er sommet
+                +1.f, +0.f, +0.f, // Position3D du 2ème sommet
+                +0.f, +1.f, +0.f, // Position3D du 3ème sommet
+                +1.f, +1.f, +0.f, // Position3D du 4ème sommet
+                +0.f, +0.f, +1.f, // Position3D du 5ème sommet
+                +1.f, +0.f, +1.f, // Position3D du 6ème sommet
+                +0.f, +1.f, +1.f, // Position3D du 7ème sommet
+                +1.f, +1.f, +1.f, // Position3D du 8ème sommet
             },
         }},
         .index_buffer   = {
             0, 1, 2, // Indices du premier triangle : on utilise le 1er, 2ème et 3ème sommet
-            0, 2, 3  // Indices du deuxième triangle : on utilise le 1er, 3ème et 4ème sommet
+            1, 2, 3,  // Indices du deuxième triangle : on utilise le 1er, 3ème et 4ème sommet
+            0,1,4,
+            1,4,5,
+            1,3,5,
+            3,5,7,
+            3,2,6,
+            3,6,7,
+            0,4,2,
+            2,4,6,
+            4,5,7,
+            4,6,7
         },
     }};
 
@@ -71,9 +85,10 @@ int main()
         shader.bind(); // On a besoin qu'un shader soit bind (i.e. "actif") avant de draw(). On en reparle dans la section d'après.
 
         shader.set_uniform("aspect_ratio", gl::framebuffer_aspect_ratio());
-        shader.set_uniform("positionIG", gl::time_in_seconds());
+        //shader.set_uniform("positionIG", gl::time_in_seconds());
 
         rectangle_mesh.draw(); // C'est ce qu'on appelle un "draw call" : on envoie l'instruction à la carte graphique de dessiner notre mesh.
+
 
         glm::mat4 const view_matrix = camera.view_matrix();
         gl::set_events_callbacks({
@@ -86,11 +101,12 @@ int main()
         });
 
         glm::mat4 const projection_matrix = glm::infinitePerspective(glm::radians(45.f), gl::framebuffer_aspect_ratio(), 0.001f);
+
         glm::mat4 const rotation = glm::rotate(glm::mat4{1.f}, gl::time_in_seconds() /*angle de la rotation*/, glm::vec3{0.f, 0.f, 1.f} /* axe autour duquel on tourne */);
         glm::mat4 const translation = glm::translate(glm::mat4{1.f}, glm::vec3{0.f, 1.f, 0.f} /* déplacement */);
 
         glm::mat4 const model_matrix = rotation*translation;
-        shader.set_uniform("mat",projection_matrix*view_matrix*model_matrix);
+        shader.set_uniform("mat",projection_matrix*view_matrix/**model_matrix*/);
     }
 
 }

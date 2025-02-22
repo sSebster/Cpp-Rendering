@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/lib/glfw
+# Install script for directory: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/lib/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework/lib/glfw/src/cmake_install.cmake")
+  include("C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework/lib/glfw/src/cmake_install.cmake")
 endif()
 
