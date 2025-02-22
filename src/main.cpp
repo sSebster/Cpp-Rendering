@@ -52,9 +52,9 @@ int main()
             .layout = {gl::VertexAttribute::Position2D{0}, gl::VertexAttribute::UV{1}},
             .data   = {
                 +0.f, +0.f,     0, 0,// Position2D du 1er sommet
-                +1.f, +0.f,     1, 0,// Position2D du 2ème sommet
-                +0.f, +1.f,     0, 1,// Position2D du 3ème sommet
-                +1.f, +1.f,     1, 1,// Position2D du 4ème sommet
+                +1.f, +0.f,     10, 0,// Position2D du 2ème sommet
+                +0.f, +1.f,     0, 10,// Position2D du 3ème sommet
+                +1.f, +1.f,     10, 10,// Position2D du 4ème sommet
             },
         }},
 
