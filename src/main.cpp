@@ -109,6 +109,47 @@ int main()
         }
     };
 
+    auto render_target = gl::RenderTarget{gl::RenderTarget_Descriptor{
+        .width          = gl::framebuffer_width_in_pixels(),
+        .height         = gl::framebuffer_height_in_pixels(),
+        .color_textures = {
+            gl::ColorAttachment_Descriptor{
+                .format  = gl::InternalFormat_Color::RGBA8,
+                .options = {
+                    .minification_filter  = gl::Filter::NearestNeighbour, // On va toujours afficher la texture à la taille de l'écran,
+                    .magnification_filter = gl::Filter::NearestNeighbour, // donc les filtres n'auront pas d'effet. Tant qu'à faire on choisit le moins coûteux.
+                    .wrap_x               = gl::Wrap::ClampToEdge,
+                    .wrap_y               = gl::Wrap::ClampToEdge,
+                },
+            },
+        },
+        .depth_stencil_texture = gl::DepthStencilAttachment_Descriptor{
+            .format  = gl::InternalFormat_DepthStencil::Depth32F,
+            .options = {
+                .minification_filter  = gl::Filter::NearestNeighbour,
+                .magnification_filter = gl::Filter::NearestNeighbour,
+                .wrap_x               = gl::Wrap::ClampToEdge,
+                .wrap_y               = gl::Wrap::ClampToEdge,
+            },
+        },
+    }};
+
+    auto const quad_for_render = gl::Mesh{{
+        .vertex_buffers = {{
+            .layout = {gl::VertexAttribute::Position2D{0}, gl::VertexAttribute::UV{1}},
+            .data   = {
+                -1.f, -1.f,     0, 0, // Bas gauche
+                +1.f, -1.f,     1, 0, // Bas droit
+                -1.f, +1.f,     0, 1, // Haut gauche
+                +1.f, +1.f,     1, 1, // Haut droit
+            },
+        }},
+        .index_buffer   = {
+            0, 1, 2,
+            1, 2, 3,
+        },
+    }};
+
     // Rendu à chaque frame
     while (gl::window_is_open())
     {
@@ -116,34 +157,52 @@ int main()
         glClear(GL_COLOR_BUFFER_BIT); // Exécute concrètement l'action d'appliquer sur tout l'écran la couleur choisie au-dessus
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Vient remplacer glClear(GL_COLOR_BUFFER_BIT);
 
-        shader.bind(); // On a besoin qu'un shader soit bind (i.e. "actif") avant de draw(). On en reparle dans la section d'après.
-
-        shader.set_uniform("aspect_ratio", gl::framebuffer_aspect_ratio());
-        //shader.set_uniform("positionIG", gl::time_in_seconds());
-
-        shader.set_uniform("my_texture", texture);
 
 
-        rectangle_mesh.draw(); // C'est ce qu'on appelle un "draw call" : on envoie l'instruction à la carte graphique de dessiner notre mesh.
+        render_target.render([&]() {
+            glClearColor(1.f, 0.f, 0.f, 1.f); // Dessine du rouge, non pas à l'écran, mais sur notre render target
+            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+            // ... mettez tout votre code de rendu ici
+
+            shader.bind(); // On a besoin qu'un shader soit bind (i.e. "actif") avant de draw(). On en reparle dans la section d'après.
+
+            shader.set_uniform("aspect_ratio", gl::framebuffer_aspect_ratio());
+            //shader.set_uniform("positionIG", gl::time_in_seconds());
+
+            shader.set_uniform("my_texture", texture);
 
 
-        glm::mat4 const view_matrix = camera.view_matrix();
-        gl::set_events_callbacks({
-            camera.events_callbacks(),
+            rectangle_mesh.draw(); // C'est ce qu'on appelle un "draw call" : on envoie l'instruction à la carte graphique de dessiner notre mesh.
+
+
+            glm::mat4 const view_matrix = camera.view_matrix();
+            gl::set_events_callbacks({
+                camera.events_callbacks(),
             {
-                .on_mouse_pressed = [&](gl::MousePressedEvent const& e) {
-                    std::cout << "Mouse pressed at " << e.position.x << " " << e.position.y << '\n';
-                },
+                 .on_mouse_pressed = [&](gl::MousePressedEvent const& e) {
+                       std::cout << "Mouse pressed at " << e.position.x << " " << e.position.y << '\n';
+                 },
             },
+            });
+            gl::set_events_callbacks({
+                camera.events_callbacks(),
+                {.on_framebuffer_resized = [&](gl::FramebufferResizedEvent const& e) {
+                    if(e.width_in_pixels != 0 && e.height_in_pixels != 0) // OpenGL crash si on tente de faire une render target avec une taille de 0
+                        render_target.resize(e.width_in_pixels, e.height_in_pixels);
+                }},
+            });
+
+            glm::mat4 const projection_matrix = glm::infinitePerspective(glm::radians(45.f), gl::framebuffer_aspect_ratio(), 0.001f);
+
+            glm::mat4 const rotation = glm::rotate(glm::mat4{1.f}, gl::time_in_seconds() /*angle de la rotation*/, glm::vec3{0.f, 0.f, 1.f} /* axe autour duquel on tourne */);
+            glm::mat4 const translation = glm::translate(glm::mat4{1.f}, glm::vec3{0.f, 1.f, 0.f} /* déplacement */);
+
+            glm::mat4 const model_matrix = rotation*translation;
+            shader.set_uniform("mat",projection_matrix*view_matrix/**model_matrix*/);
         });
 
-        glm::mat4 const projection_matrix = glm::infinitePerspective(glm::radians(45.f), gl::framebuffer_aspect_ratio(), 0.001f);
-
-        glm::mat4 const rotation = glm::rotate(glm::mat4{1.f}, gl::time_in_seconds() /*angle de la rotation*/, glm::vec3{0.f, 0.f, 1.f} /* axe autour duquel on tourne */);
-        glm::mat4 const translation = glm::translate(glm::mat4{1.f}, glm::vec3{0.f, 1.f, 0.f} /* déplacement */);
-
-        glm::mat4 const model_matrix = rotation*translation;
-        shader.set_uniform("mat",projection_matrix*view_matrix/**model_matrix*/);
+        //shader.set_uniform("my_texture", );
+        quad_for_render.draw();
     }
 
 }
