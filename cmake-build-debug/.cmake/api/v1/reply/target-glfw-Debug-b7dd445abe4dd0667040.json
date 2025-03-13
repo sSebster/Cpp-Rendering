@@ -134,15 +134,15 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/lib/glfw/include"
+					"path" : "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/lib/glfw/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/lib/glfw/src"
+					"path" : "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/lib/glfw/src"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/opengl-framework/lib/glfw/src"
+					"path" : "C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/cmake-build-debug/opengl-framework/lib/glfw/src"
 				}
 			],
 			"language" : "C",
