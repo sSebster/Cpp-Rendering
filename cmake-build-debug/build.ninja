@@ -47,7 +47,7 @@ cmake_ninja_workdir = C$:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-de
 #############################################
 # Order-only phony target for TPs-Rendering
 
-build cmake_object_order_depends_target_TPs-Rendering: phony || cmake_object_order_depends_target_exe_path cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_img cmake_object_order_depends_target_opengl_framework cmake_object_order_depends_target_stb_image timestamp_1a55800068c1111e62cbcaf40457014c timestamp_3967e6056bef46973f645250f41f51a4 timestamp_506f3f488bf82f02219bd32f7507ba85
+build cmake_object_order_depends_target_TPs-Rendering: phony || cmake_object_order_depends_target_exe_path cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_img cmake_object_order_depends_target_opengl_framework cmake_object_order_depends_target_stb_image timestamp_1a55800068c1111e62cbcaf40457014c timestamp_3967e6056bef46973f645250f41f51a4 timestamp_506f3f488bf82f02219bd32f7507ba85 timestamp_84eea9cdc11c78d059fbad1af00678ba timestamp_87d4f050aaf063cfed56ec8469174327 timestamp_94fadd591af972aab1dead0bdb143050
 
 build CMakeFiles\TPs-Rendering.dir\src\main.cpp.obj: CXX_COMPILER__TPs-Rendering_unscanned_Debug C$:\Users\PC\Documents\GitHub\C---Rendering\src\main.cpp || cmake_object_order_depends_target_TPs-Rendering
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
@@ -137,6 +137,33 @@ build install\local: phony CMakeFiles\install\local.util
 build timestamp_3967e6056bef46973f645250f41f51a4 | ${cmake_ninja_workdir}timestamp_3967e6056bef46973f645250f41f51a4: CUSTOM_COMMAND C$:\Users\PC\Documents\GitHub\C---Rendering\res\.gitkeep || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_3967e6056bef46973f645250f41f51a4 && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/PC/Documents/GitHub/C---Rendering/res/.gitkeep C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/.gitkeep"
   DESC = Copying "C:/Users/PC/Documents/GitHub/C---Rendering/res/.gitkeep" to "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/.gitkeep"
+  restat = 1
+
+
+#############################################
+# Custom command for timestamp_94fadd591af972aab1dead0bdb143050
+
+build timestamp_94fadd591af972aab1dead0bdb143050 | ${cmake_ninja_workdir}timestamp_94fadd591af972aab1dead0bdb143050: CUSTOM_COMMAND C$:\Users\PC\Documents\GitHub\C---Rendering\res\bato\fourareen.mtl || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_94fadd591af972aab1dead0bdb143050 && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen.mtl C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/bato/fourareen.mtl"
+  DESC = Copying "C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen.mtl" to "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/bato/fourareen.mtl"
+  restat = 1
+
+
+#############################################
+# Custom command for timestamp_87d4f050aaf063cfed56ec8469174327
+
+build timestamp_87d4f050aaf063cfed56ec8469174327 | ${cmake_ninja_workdir}timestamp_87d4f050aaf063cfed56ec8469174327: CUSTOM_COMMAND C$:\Users\PC\Documents\GitHub\C---Rendering\res\bato\fourareen.obj || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_87d4f050aaf063cfed56ec8469174327 && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen.obj C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/bato/fourareen.obj"
+  DESC = Copying "C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen.obj" to "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/bato/fourareen.obj"
+  restat = 1
+
+
+#############################################
+# Custom command for timestamp_84eea9cdc11c78d059fbad1af00678ba
+
+build timestamp_84eea9cdc11c78d059fbad1af00678ba | ${cmake_ninja_workdir}timestamp_84eea9cdc11c78d059fbad1af00678ba: CUSTOM_COMMAND C$:\Users\PC\Documents\GitHub\C---Rendering\res\bato\fourareen2K_albedo.jpg || opengl-framework\glad.lib opengl-framework\lib\exe_path\exe_path.lib opengl-framework\lib\glfw\src\glfw3.lib opengl-framework\lib\img\img.lib opengl-framework\lib\img\stb_image.lib opengl-framework\opengl_framework.lib
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\PC\Documents\GitHub\C---Rendering\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E touch timestamp_84eea9cdc11c78d059fbad1af00678ba && "C:\Program Files\JetBrains\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen2K_albedo.jpg C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/bato/fourareen2K_albedo.jpg"
+  DESC = Copying "C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen2K_albedo.jpg" to "C:/Users/PC/Documents/GitHub/C---Rendering/cmake-build-debug/res/bato/fourareen2K_albedo.jpg"
   restat = 1
 
 
