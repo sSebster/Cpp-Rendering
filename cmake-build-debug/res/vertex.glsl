@@ -1,12 +1,14 @@
 ﻿#version 410
 
 layout(location = 0) in vec3 in_position;
+layout(location = 2) in vec3 in_normale;
 
 uniform float aspect_ratio;
 uniform float positionIG;
 uniform mat4 mat;
 
 out vec3 vertex_position;
+out vec3 vertex_normale;
 
 void main()
 {
@@ -17,7 +19,7 @@ void main()
     //position.x /= aspect_ratio;
 
     vertex_position = in_position;
+    vertex_normale = in_normale;
 
-    gl_Position = vec4(vertex_position, 1.);
-    gl_Position = mat * gl_Position;
+    gl_Position = mat * vec4(vertex_position, 1.);
 }

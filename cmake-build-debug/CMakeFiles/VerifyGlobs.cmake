@@ -44,6 +44,9 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/PC/Documents/GitHub/C---Rendering/res/*")
 set(OLD_GLOB
   "C:/Users/PC/Documents/GitHub/C---Rendering/res/.gitkeep"
+  "C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen.mtl"
+  "C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen.obj"
+  "C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen2K_albedo.jpg"
   "C:/Users/PC/Documents/GitHub/C---Rendering/res/fragment.glsl"
   "C:/Users/PC/Documents/GitHub/C---Rendering/res/vertex.glsl"
   )
