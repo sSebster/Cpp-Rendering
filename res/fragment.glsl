@@ -11,8 +11,13 @@ void main()
 {
     vec4 texture_color = texture(bato_texture, vertex_uv);
 
+    vec3 light_position = vec3(2.,0.,0.);
+    vec3 light_point = normalize(light_position - vertex_position);
+
+    float light_distance = distance(light_position, vertex_position);
     vec3 light_direction = vec3(0.,0.,-1.);
-    float light_intensity = max(-dot(vertex_normale,light_direction)+0.5, 0.);
+    float light_intensity = max(-dot(vertex_normale,light_point), 0.)/(light_distance*light_distance);
+
     out_color = vec4(texture_color.rgb * light_intensity, texture_color.a);
 
 
