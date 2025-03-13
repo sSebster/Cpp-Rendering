@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Sknet/Documents/GitHub/cpp_rendering/Cpp-Rendering/opengl-framework/lib/exe_path
+# Install script for directory: C:/Users/PC/Documents/GitHub/C---Rendering/opengl-framework/lib/exe_path
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

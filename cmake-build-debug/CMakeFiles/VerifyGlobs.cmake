@@ -48,6 +48,7 @@ set(OLD_GLOB
   "C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen.obj"
   "C:/Users/PC/Documents/GitHub/C---Rendering/res/bato/fourareen2K_albedo.jpg"
   "C:/Users/PC/Documents/GitHub/C---Rendering/res/fragment.glsl"
+  "C:/Users/PC/Documents/GitHub/C---Rendering/res/texture.png"
   "C:/Users/PC/Documents/GitHub/C---Rendering/res/vertex.glsl"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

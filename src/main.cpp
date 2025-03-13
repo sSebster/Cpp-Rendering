@@ -110,14 +110,19 @@ int main()
         },
     }};
 
-    auto const mesh_mesh = gl::Mesh{{
-        .vertex_buffers = {{
-            .layout = {gl::VertexAttribute::Position3D{0}},
-            .data   = {
-
-            },
-        }},
-    }};
+    auto const texture = gl::Texture{
+        gl::TextureSource::File{ // Peut-être un fichier, ou directement un tableau de pixels
+            .path           = "res/bato/fourareen2K_albedo.jpg",
+            .flip_y         = true, // Il n'y a pas de convention universelle sur la direction de l'axe Y. Les fichiers (.png, .jpeg) utilisent souvent une direction différente de celle attendue par OpenGL. Ce booléen flip_y est là pour inverser la texture si jamais elle n'apparaît pas dans le bon sens.
+            .texture_format = gl::InternalFormat::RGBA8, // Format dans lequel la texture sera stockée. On pourrait par exemple utiliser RGBA16 si on voulait 16 bits par canal de couleur au lieu de 8. (Mais ça ne sert à rien dans notre cas car notre fichier ne contient que 8 bits par canal, donc on ne gagnerait pas de précision). On pourrait aussi stocker en RGB8 si on ne voulait pas de canal alpha. On utilise aussi parfois des textures avec un seul canal (R8) pour des usages spécifiques.
+        },
+        gl::TextureOptions{
+            .minification_filter  = gl::Filter::Linear, // Comment on va moyenner les pixels quand on voit l'image de loin ?
+            .magnification_filter = gl::Filter::Linear, // Comment on va interpoler entre les pixels quand on zoom dans l'image ?
+            .wrap_x               = gl::Wrap::Repeat,   // Quelle couleur va-t-on lire si jamais on essaye de lire en dehors de la texture ?
+            .wrap_y               = gl::Wrap::Repeat,   // Idem, mais sur l'axe Y. En général on met le même wrap mode sur les deux axes.
+        }
+    };
 
     auto mesh = load_mesh("res/bato/fourareen.obj");
     // Rendu à chaque frame
@@ -130,7 +135,7 @@ int main()
 
         shader.set_uniform("aspect_ratio", gl::framebuffer_aspect_ratio());
         shader.set_uniform("positionIG", gl::time_in_seconds());
-
+        shader.set_uniform("bato_texture", texture);
 
         glm::mat4 const view_matrix = camera.view_matrix();
         gl::set_events_callbacks({
